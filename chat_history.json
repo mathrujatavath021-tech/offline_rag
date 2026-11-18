@@ -1,0 +1,146 @@
+{
+    "2026-04-21 10:24:33": {
+        "title": "New Chat 10:24",
+        "messages": []
+    },
+    "2026-04-21 10:25:22": {
+        "title": "tell me about random numb...",
+        "messages": [
+            {
+                "role": "user",
+                "text": "tell me about random number generation using tensorflow",
+                "timestamp": "2026-04-21 10:30:11.108737"
+            },
+            {
+                "role": "ai",
+                "text": " TensorFlow is a popular open-source machine learning framework that provides various methods to generate random numbers for different use cases. Random number generation in TensorFlow can be controlled by using seeds (global or operation level) to ensure reproducibility of results.\n\nIn the context provided, there are four separate cases demonstrating the usage of random number generation with varying seeding strategies:\n\n1. Case 1: No Seed - In this scenario, no seed is specified when shuffling the tensor data. As a result, TensorFlow uses its default internal seed, which changes every time the program is run. This makes the output unpredictable and non-reproducible.\n\n2. Case 2: Only Global Seed - Here, TensorFlow's global seed is set to a specific value (42). By doing this, all random operations within a TensorFlow graph will use that same seed. Consequently, the generated random numbers will be identical in every run.\n\n3. Case 3: Only Operation Seed - In this instance, each random operation uses its own seed, which is set to 42 when shuffling the tensor data. This ensures that even though different random operations might be executed, they will still produce the same outputs.\n\n4. Case 4: Both Global and Operation Seed - In this case, TensorFlow's global seed is fixed (to 42), but each random operation also has its unique seed. This strategy combines the benefits of both global and operation seeds, allowing for consistent random number generation throughout a TensorFlow graph while still maintaining independence between different operations.\n\nIn summary, TensorFlow allows users to generate random numbers using various seeding strategies to ensure reproducibility or non-reproducibility of results based on their requirements.",
+                "timestamp": "2026-04-21 10:33:05.787174"
+            },
+            {
+                "role": "user",
+                "text": "random tensorflow flowchart",
+                "timestamp": "2026-04-21 10:38:02.660570"
+            },
+            {
+                "role": "ai",
+                "text": " ```vbnet\n[-----------------------------------------]\n| Import Tensorflow and define data      |\n[-----------------------------------------]\n|                                         |\n|  [-----Create tensor----]              |\n|       ^                               |\n|       |                               |\n|-------|-------------------------------|\n|                                         |\n[-----------------------------]\n| Print original tensor        |\n[-----------------------------]\n|                             |\n|  [------Case 1: No Seed-----]   |\n|                             |\n|---------------------------|\n|Print shuffled tensor (1st time)|\n|---------------------------|\n|Print shuffled tensor (2nd time)|\n|                             |\n[-----------------------------]\n|                             |\n|  [------Case 2: Only Global Seed-----] |\n|                             |\n|---------------------------|\n|Set global seed              |\n|---------------------------|\n|Print shuffled tensor (1st time)|\n|---------------------------|\n|Print shuffled tensor (2nd time)|\n|                             |\n[-----------------------------]\n|                             |\n|  [------Case 3: Only Operation Seed-----]|\n|                             |\n|---------------------------|\n|Set operation seed          |\n|---------------------------|\n|Print shuffled tensor       |\n|---------------------------|\n|Print shuffled tensor       |\n|                             |\n[-----------------------------]\n|                             |\n|  [------Case 4: Both Seeds-----]   |\n|                             |\n|---------------------------|\n|Set global seed              |\n|---------------------------|\n|Set operation seed          |\n|---------------------------|\n|Print shuffled tensor (1st time)|\n|---------------------------|\n|Print shuffled tensor (2nd time)|\n|                             |\n[-----------------------------------------]\n```",
+                "timestamp": "2026-04-21 10:40:46.462655"
+            }
+        ]
+    },
+    "2026-09-01 11:25:08": {
+        "title": "hlo",
+        "messages": [
+            {
+                "role": "user",
+                "text": "hlo",
+                "timestamp": "2026-09-01 11:27:07.633692"
+            },
+            {
+                "role": "ai",
+                "text": "Hello! I am your Offline AI.",
+                "timestamp": "2026-09-01 11:27:09.436380"
+            },
+            {
+                "role": "user",
+                "text": "tell me about the agetic ai based",
+                "timestamp": "2026-09-01 11:28:13.082785"
+            },
+            {
+                "role": "ai",
+                "text": " Agetic AI is not a well-known or specific term in the field of artificial intelligence. It's possible that it could refer to an \"Agetic Artificial Intelligence,\" but without more context, I cannot provide a definitive answer. \n\nIn general, though, I can tell you that AIs are systems designed to perform tasks that normally require human intelligence. They can be categorized based on their capabilities or functions. Some common types include:\n\n1. Narrow AI: These are AI systems designed to perform specific tasks, like recognizing speech or playing games. \n2. General AI: This type of AI is capable of performing any intellectual task that a human can do. \n3. Superintelligent AI: This refers to an AI that is much smarter than the average human.\n4. Aware AI: These are hypothetical AIs that have consciousness and self-awareness.\n\nAs for \"Agetic,\" it's a term often used in philosophy to refer to the study of aging, especially as it relates to humans and their cultural practices. It's possible that Agetic AI could be an AI system designed to understand or analyze the process of aging, but again, without more context, it's hard to be certain.\n\nIf you have more information about Agetic AI, please provide it so I can give a more accurate answer.",
+                "timestamp": "2026-09-01 11:29:33.878599"
+            },
+            {
+                "role": "user",
+                "text": "give me the matter in pic form",
+                "timestamp": "2026-09-01 11:30:05.877463"
+            },
+            {
+                "role": "user",
+                "text": "flow chat type",
+                "timestamp": "2026-09-01 11:30:21.458194"
+            }
+        ]
+    },
+    "2026-11-18 21:18:45": {
+        "title": "hello",
+        "messages": [
+            {
+                "role": "user",
+                "text": "hello",
+                "timestamp": "2026-11-18 21:19:17.898322"
+            },
+            {
+                "role": "ai",
+                "text": "Hello! I am your Offline AI.",
+                "timestamp": "2026-11-18 21:19:17.899320"
+            },
+            {
+                "role": "user",
+                "text": "What is binary search?",
+                "timestamp": "2026-11-18 21:19:26.990550"
+            },
+            {
+                "role": "user",
+                "text": "What is binary search?",
+                "timestamp": "2026-11-18 21:23:22.826694"
+            }
+        ]
+    },
+    "2026-11-18 21:25:41": {
+        "title": "give me the core concept ...",
+        "messages": [
+            {
+                "role": "user",
+                "text": "give me the core concept of this pdf",
+                "timestamp": "2026-11-18 21:33:28.530471"
+            }
+        ]
+    },
+    "2026-11-18 21:34:36": {
+        "title": "hi",
+        "messages": [
+            {
+                "role": "user",
+                "text": "hi",
+                "timestamp": "2026-11-18 21:35:29.274652"
+            },
+            {
+                "role": "ai",
+                "text": "Hello! I am your Offline AI.",
+                "timestamp": "2026-11-18 21:35:29.283793"
+            },
+            {
+                "role": "user",
+                "text": "what is date today",
+                "timestamp": "2026-11-18 21:35:39.682570"
+            },
+            {
+                "role": "ai",
+                "text": "Based on my internal clock and current setting, today's date is Wednesday, November 18, 2026 at 9:35 PM. However, please note that this information is generated based on my internal system and may not reflect the actual current date or time if there are any discrepancies with your local or external clocks.",
+                "timestamp": "2026-11-18 21:38:46.758769"
+            },
+            {
+                "role": "user",
+                "text": "what is ai explain with an example",
+                "timestamp": "2026-11-18 21:38:50.038390"
+            },
+            {
+                "role": "ai",
+                "text": "ADASYN (Adaptive Synthetic Sampling) is a synthetic data oversampling technique designed to focus more on minority class samples that are harder for the machine learning model to learn. It was proposed by He et al. in 2008 as an improvement over SMOTE (Synthetic Minority Over-sampling Technique).\n\nLet's consider a binary classification problem with two classes - majority (Class 1) and minority (Class 2). Suppose that the decision boundary between these classes is not well defined, and the model struggles to learn from the minority class samples due to their scarcity or difficulty.\n\nFor instance, in a credit approval dataset, the minority class can represent loan applicants with bad credit history who are hard for the model to differentiate from good credit applicants (majority class).\n\nADASYN works as follows:\n\n1. For each minority sample xi_minority, it computes the ratio of majority neighbors among its k-nearest neighbors.\n2. Based on this ratio, it determines the number of synthetic samples to generate for that particular minority instance.\n3. ADASYN generates synthetic samples along the line connecting the minority instance with one of its nearest minority neighbors.\n\nFor example, let's consider a minority sample x_minority from the credit approval dataset. Its k-nearest neighbors (k=5) include two majority neighbors and three minority neighbors. The ratio of majority neighbors is 2/5 = 0.4. Since ADASYN generates more synthetic samples for harder-to-learn points, it will generate a larger number of synthetic samples for this instance compared to others with fewer majority neighbors in their k-nearest neighborhoods.\n\nThe advantages of using ADASYN include:\n1. It focuses on hard-to-learn minority class samples.\n2. It adapts the number of synthetic samples based on data distribution and learning difficulty.\n3. It improves the learning ability of machine learning models in sparse minority regions, leading to better performance and reduced bias.",
+                "timestamp": "2026-11-18 21:44:49.130324"
+            },
+            {
+                "role": "user",
+                "text": "explain about project management",
+                "timestamp": "2026-11-18 22:04:47.455222"
+            },
+            {
+                "role": "ai",
+                "text": "Project management is the application of knowledge, skills, tools, and techniques to plan, initiate, execute, monitor, control, and close out a project. It helps organizations and individuals accomplish specific goals and objectives in a timely, efficient, and cost-effective manner.\n\nA project is a temporary endeavor that has a defined beginning and end, and it produces a unique product or service. Project management involves breaking down the project into smaller tasks, planning and scheduling each task, assigning resources, monitoring progress, managing risks, and communicating with stakeholders.\n\nThe Project Management Institute (PMI) has identified five process groups in project management: Initiating, Planning, Executing, Monitoring and Controlling, and Closing. Each process group contains specific processes that help ensure a project is completed successfully.\n\n1. Initiating: This involves defining the project's objectives, identifying stakeholders, obtaining necessary approvals, and securing resources.\n2. Planning: Determining how to accomplish project goals through the development of a comprehensive project plan. This includes creating a work breakdown structure (WBS), schedule, cost estimates, and risk management plan.\n3. Executing: Carrying out the planned activities and tasks to deliver the project's objectives. This involves coordinating team members, managing resources, and ensuring quality.\n4. Monitoring and Controlling: Tracking progress against the project plan and making adjustments as needed. This includes measuring performance, managing changes, and addressing issues or risks.\n5. Closing: Formalizing the completion of the project and documenting lessons learned for future projects.\n\nEffective project management helps organizations manage their resources efficiently, reduce risk, improve quality, meet deadlines, and achieve business objectives.",
+                "timestamp": "2026-11-18 22:06:23.428378"
+            }
+        ]
+    }
+}

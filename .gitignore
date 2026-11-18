@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.zip
+dist/
+build/
+.idea/
+models/
+ffmpeg/
+Tesseract-OCR/
+vosk-model-small-en-us-0.15/
+vosk_files/
+graphviz/
+llama_cpp/
+rpc-server.exe
