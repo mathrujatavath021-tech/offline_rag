@@ -13,3 +13,6 @@ vosk_files/
 graphviz/
 llama_cpp/
 rpc-server.exe
+cache/
+data/users/
+*.tmp

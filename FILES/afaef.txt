@@ -1,0 +1,12 @@
+Chat History: hlo
+Exported: 2026-01-09 10:46:43.412479
+========================================
+
+[User]: hlo
+--------------------
+[AI]: Hello! I am your Offline AI.
+--------------------
+[User]: explain about the india
+--------------------
+[User]: fe
+--------------------
