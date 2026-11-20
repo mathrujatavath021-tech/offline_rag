@@ -18,27 +18,69 @@ from PIL import Image, ImageTk
 # --- MODERN GUI LIBRARY ---
 try:
     import customtkinter as ctk
-except ImportError:
-    print("Please run: pip install customtkinter")
-    sys.exit(1)
+except Exception:
+    ctk = None
 
 # --- LIBRARY IMPORTS ---
 try:
     import numpy as np
+except Exception:
+    np = None
+
+try:
     import pyttsx3
+except Exception:
+    pyttsx3 = None
+
+try:
     import PyPDF2
+except Exception:
+    PyPDF2 = None
+
+try:
     import pytesseract
+except Exception:
+    pytesseract = None
+
+try:
     import soundfile as sf
+except Exception:
+    sf = None
+
+try:
     import sounddevice as sd
+except Exception:
+    sd = None
+
+try:
     from docx import Document
+except Exception:
+    Document = None
+
+try:
     from vosk import Model, KaldiRecognizer
+except Exception:
+    Model, KaldiRecognizer = None, None
+
+try:
     from sentence_transformers import SentenceTransformer
+except Exception:
+    SentenceTransformer = None
+
+try:
     from sklearn.metrics.pairwise import cosine_similarity
+except Exception:
+    cosine_similarity = None
+
+try:
     from llama_cpp import Llama
+except Exception:
+    Llama = None
+
+try:
     from deep_translator import GoogleTranslator
-except ImportError as e:
-    print(f"CRITICAL ERROR: Missing library. {e}")
-    sys.exit(1)
+except Exception:
+    GoogleTranslator = None
 
 # --- CONFIGURATION ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -919,5 +961,8 @@ if __name__ == "__main__":
         threading.Thread(target=open_browser, args=(port,), daemon=True).start()
         web_app.run(host="127.0.0.1", port=port, debug=False)
     else:
+        if ctk is None:
+            print("customtkinter or Tkinter is not available in this environment. Run in web mode: python app_web.py")
+            sys.exit(1)
         app = RAGApp()
         app.mainloop()

@@ -22,13 +22,19 @@ app.config["MAX_CONTENT_LENGTH"] = 200 * 1024 * 1024  # 200 MB max upload
 # Global start time
 SERVER_START_TIME = time.time()
 
-# Pre-load shared RAG model on startup
+# Pre-load shared RAG model on startup if available
 print("[*] Pre-warming RAG Engine...")
-rag_engine.get_embedder()
-rag_engine.get_llm()
+try:
+    rag_engine.get_embedder()
+    rag_engine.get_llm()
+except Exception as e:
+    print(f"[*] Pre-warming note: {e}")
 
 # Initialize default monitored folder for default admin
-default_admin_watcher = file_watcher.get_user_watcher("user_default_admin")
+try:
+    default_admin_watcher = file_watcher.get_user_watcher("user_default_admin")
+except Exception as e:
+    print(f"[*] File watcher init note: {e}")
 
 
 # ==============================================================================
