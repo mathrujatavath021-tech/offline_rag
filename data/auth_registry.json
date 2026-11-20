@@ -1,0 +1,81 @@
+{
+    "users": {
+        "user_default_admin": {
+            "user_id": "user_default_admin",
+            "name": "Administrator",
+            "role": "admin",
+            "code_prefix": "RAG-ADMI",
+            "salt_hex": "044bda370c9ad3fe6454a1a91759fffc",
+            "hash_hex": "b69074c40f14d485c1c4b2eab6cd1aaea5ffbfcbcead7dabb1eee2b233f2e7971cc9d41214a8705b4aa9e476d131797ce8b5a8f27922e82a46065d52823b2913",
+            "created_at": "2026-11-20T13:45:35.847663",
+            "is_revoked": false,
+            "last_login": "2026-11-20T14:18:28.959241"
+        },
+        "user_852f37016ea5": {
+            "user_id": "user_852f37016ea5",
+            "name": "Test Engineer",
+            "role": "user",
+            "code_prefix": "RAG-3BKX",
+            "salt_hex": "c319bbf90689cedb2790b8dc7791078f",
+            "hash_hex": "ac2f0b771f503e4f851d44c65e324f19286e54be8bc38c13ff182b3389dc08022ca8b1dfedf95fb2e9da4ddc47ddf96119c83574adb48fbe6e93c400c4b77eaf",
+            "created_at": "2026-11-20T13:45:35.892533",
+            "is_revoked": true,
+            "last_login": "2026-11-20T13:45:36.162343"
+        },
+        "user_015388832283": {
+            "user_id": "user_015388832283",
+            "name": "Alice Test",
+            "role": "user",
+            "code_prefix": "RAG-9PJY",
+            "salt_hex": "38b3de66799f8cc82a17f1a8d8c23a92",
+            "hash_hex": "d2d719f1302508509be61a1a65ec5d734000ab214fb1aeaf6a398b35e2f3d814d7388da751418cd2d9009c69d863f6d8ec6831830737f6740f0152e3752eb41f",
+            "created_at": "2026-11-20T14:01:40.599868",
+            "is_revoked": false,
+            "last_login": "2026-11-20T14:01:40.702432"
+        },
+        "user_4670cd350866": {
+            "user_id": "user_4670cd350866",
+            "name": "Alice Test",
+            "role": "user",
+            "code_prefix": "RAG-4KLF",
+            "salt_hex": "867ec48937fadf91756005a66d2947a6",
+            "hash_hex": "a19ef5f64bf9c1197d0050b763cd7c48249ffee9c79d2f67fd674f9ab13cbc01dbf5a63e9891c09f0615266de5ecb55d15b88c6373ae04c10953b035b020726d",
+            "created_at": "2026-11-20T14:02:55.504787",
+            "is_revoked": true,
+            "last_login": "2026-11-20T14:02:55.621975"
+        },
+        "user_c312f86686ba": {
+            "user_id": "user_c312f86686ba",
+            "name": "Alice Test",
+            "role": "user",
+            "code_prefix": "RAG-YSVJ",
+            "salt_hex": "4d840443b733029e18e9492d70dac5bc",
+            "hash_hex": "f2fc140b48bf3ccd636f3deb816b9dcb5d6ba55452116465bf2230dedd58db5149007744e6270aad009d12c1528e9aea2c699364772d727068d71dfc25152fad",
+            "created_at": "2026-11-20T14:04:05.130411",
+            "is_revoked": true,
+            "last_login": "2026-11-20T14:04:05.257155"
+        },
+        "user_df775f531dde": {
+            "user_id": "user_df775f531dde",
+            "name": "Alice Test",
+            "role": "user",
+            "code_prefix": "RAG-HDMP",
+            "salt_hex": "de20f5a08daeddbfb63505c8b9315050",
+            "hash_hex": "4c2f4e16eb23bce27476b0d0787d91956440364495b0cb7b87e3d6488e397a7395b1c6d81933665d6ae71e2c26b04ee80173e82e64d59b470bb5d80d4e76663a",
+            "created_at": "2026-11-20T14:04:39.889879",
+            "is_revoked": true,
+            "last_login": "2026-11-20T14:04:40.020952"
+        },
+        "user_e49e2ea8e931": {
+            "user_id": "user_e49e2ea8e931",
+            "name": "Alice Test",
+            "role": "user",
+            "code_prefix": "RAG-LM3P",
+            "salt_hex": "b3e059a4515486ca2e77edc13b90f214",
+            "hash_hex": "ac9224655d90bbf8b57ae08d57743f5edc93a3a2f1b0a63d80e9b6d4c47933fa3bcf44aa9811e63291bf3c1cb61320aba91efd1d108b8f9fecddca8340495abe",
+            "created_at": "2026-11-20T14:07:38.340778",
+            "is_revoked": true,
+            "last_login": "2026-11-20T14:07:38.458037"
+        }
+    }
+}
